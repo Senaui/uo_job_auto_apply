@@ -94,4 +94,4 @@ let temp = await getElement(url, '#volumes a');
 
 console.log(equalArray);
 //console.log(a)
-getHtml('https://developer.chrome.com/')
+//getHtml('https://developer.chrome.com/')
