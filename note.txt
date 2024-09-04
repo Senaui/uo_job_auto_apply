@@ -1,0 +1,59 @@
+<input type="submit" id="idSIButton9" class="win-button button_primary button ext-button primary ext-primary"
+    data-report-event="Signin_Submit" data-report-trigger="click" data-report-value="Submit" data-bind="
+                attr: primaryButtonAttributes,
+                css: { 'high-contrast-overrides': svr.fUseHighContrastOverrides },
+                externalCss: {
+                    'button': true,
+                    'primary': true },
+                value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
+                hasFocus: focusOnPrimaryButton,
+                click: svr.fEnableLivePreview ?  function() { } : primaryButton_onClick,
+                clickBubble: !svr.fEnableLivePreview,
+                enable: isPrimaryButtonEnabled,
+                visible: isPrimaryButtonVisible,
+                preventTabbing: primaryButtonPreventTabbing" value="Sign in">
+
+<input type="submit" id="idSIButton9" class="win-button button_primary button ext-button primary ext-primary"
+    data-report-event="Signin_Submit" data-report-trigger="click" data-report-value="Submit" data-bind="
+                attr: primaryButtonAttributes,
+                css: { 'high-contrast-overrides': svr.fUseHighContrastOverrides },
+                externalCss: {
+                    'button': true,
+                    'primary': true },
+                value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
+                hasFocus: focusOnPrimaryButton,
+                click: svr.fEnableLivePreview ?  function() { } : primaryButton_onClick,
+                clickBubble: !svr.fEnableLivePreview,
+                enable: isPrimaryButtonEnabled,
+                visible: isPrimaryButtonVisible,
+                preventTabbing: primaryButtonPreventTabbing" value="Next">
+
+                getByRole('button', { name: 'Use a verification code' })
+                getByPlaceholder('Code')
+                idTxtBx_SAOTCC_OTC
+                idSubmit_SAOTCC_Continue
+                getByRole('button', { name: 'Verify' })
+
+
+<a href="#" id="signInAnotherWay" aria-describedby="idDiv_SAOTCAS_Title idDiv_SAOTCAS_Description" xpath="1">
+I can't use my Microsoft Authenticator app right now
+</a>
+<div class="table" tabindex="0" role="button" data-bind=" attr: { 'data-value': value }, 
+css: { 'list-item': svr.fSupportWindowsStyles }, ariaDescribedBy: 
+$data === $parent.focusedProof() ? 'idDiv_SAOTCS_Title' : null, click: $parent.proof_onClick, 
+pressEnter: $parent.proof_onClick, hasFocus: $data === $parent.focusedProof()" data-value="PhoneAppOTP" xpath="1">
+<div class="table-row"></div>
+</div>
+
+<div class="table" tabindex="0" role="button" data-bind=" attr: { 'data-value': value }, 
+css: { 'list-item': svr.fSupportWindowsStyles }, ariaDescribedBy: 
+$data === $parent.focusedProof() ? 'idDiv_SAOTCS_Title' : null, click: $parent.proof_onClick, 
+pressEnter: $parent.proof_onClick, hasFocus: $data === $parent.focusedProof()" data-value="PhoneAppOTP" xpath="1">
+<div class="table-row"></div>
+</div>
+
+
+//body/div/form[@name='form']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]
+<a id="ctl00_contextContainer_uxApplyJob" class="ContextMenuItem" href="javascript:__doPostBack('ctl00$contextContainer$uxApplyJob','')" xpath="1">
+Apply
+</a>
